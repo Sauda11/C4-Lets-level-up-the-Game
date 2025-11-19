@@ -80,7 +80,7 @@ while running:
     win_text = font.render("You win!", True, pygame.Color('black'))
     screen.blit(win_text, ((SCREEN_WIDTH - win_text.get_width()) // 2,
                            (SCREEN_HEIGHT - win_text.get_height()) // 2))
-
+    
   pygame.display.flip()
   clock.tick(90)
 
